@@ -11,7 +11,10 @@ const dialogPadding = style({
     width: '100%',
     height: '100%',
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    position: "fixed",
+    left: 0,
+    top: 0
 });
 
 interface PropsFromStore {

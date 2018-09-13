@@ -33,7 +33,10 @@ var dialogPadding = style({
     width: '100%',
     height: '100%',
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    position: "fixed",
+    left: 0,
+    top: 0
 });
 // when multiple components is wrapped by withActiveUser,
 // we need to ensure that exactly one of them triggers the login dialog

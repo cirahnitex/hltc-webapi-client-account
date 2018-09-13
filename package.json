@@ -2,7 +2,7 @@
   "name": "hltc-webapi-client-account",
   "description": "hltc account management client",
   "repository": "https://github.com/cirahnitex/hltc-webapi-client-account",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
   "dependencies": {
