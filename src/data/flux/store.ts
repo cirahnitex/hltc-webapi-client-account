@@ -8,7 +8,6 @@ class AccountStore extends ReduceStore<User,{}> {
     constructor() {
         super(dispatcher);
         Login.getActiveUser();
-        setTimeout(()=>Login.getActiveUser(), 50); // react native has some delay when injecting necessary js. wait for it.
     }
     getInitialState() {
         return new User();
