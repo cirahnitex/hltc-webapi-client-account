@@ -21,7 +21,6 @@ var AccountStore = /** @class */ (function (_super) {
     function AccountStore() {
         var _this = _super.call(this, dispatcher) || this;
         Login.getActiveUser();
-        setTimeout(function () { return Login.getActiveUser(); }, 50); // react native has some delay when injecting necessary js. wait for it.
         return _this;
     }
     AccountStore.prototype.getInitialState = function () {
