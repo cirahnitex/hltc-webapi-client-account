@@ -83,7 +83,7 @@ export default class RegisterView extends React.Component<Props, State> {
     renderBeforeSignUp() {
         return (
             <div className={styles.wrap}><div className={styles.container}>
-                <Typography variant={"headline"} gutterBottom>create account</Typography>
+                <Typography variant={"h4"} gutterBottom>create account</Typography>
                 <br />
                 <EmailInput
                     label="email"
@@ -124,7 +124,7 @@ export default class RegisterView extends React.Component<Props, State> {
     renderAfterSignUp() {
         return (
             <div className={styles.wrap}><div className={styles.container}>
-                <Typography variant={"headline"}>almost done</Typography>
+                <Typography variant={"h4"}>almost done</Typography>
                 <br />
                 <Typography>we have sent a verification email to <strong>{this.state.email}</strong></Typography>
             </div></div>

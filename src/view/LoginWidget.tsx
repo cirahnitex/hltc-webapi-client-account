@@ -63,7 +63,7 @@ function LoginWidget() {
                 <Avatar className={registerStyles.avatar}>
                     <LockIcon />
                 </Avatar>
-                <Typography variant="headline">sign in</Typography>
+                <Typography variant="h4">sign in</Typography>
             </div>
             <EmailInput value={email} label="email"
                         onChange={e=>setEmail(e.target.value)}

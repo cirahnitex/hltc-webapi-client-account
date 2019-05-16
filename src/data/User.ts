@@ -10,7 +10,7 @@ export class User {
 export type NullableUser = User|undefined|null;
 
 export function isAdmin(user:NullableUser) {
-    return user && user.id === '1';
+    return user != null && user.id === '1';
 }
 
 export function isGuest(user:NullableUser) {
